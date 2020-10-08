@@ -1,2 +1,2 @@
 
-this repo is for save the project on cloud devops udacity course.
+this is project to deploy high availabilaty web application using cloud formation.
