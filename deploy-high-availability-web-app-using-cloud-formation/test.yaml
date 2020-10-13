@@ -287,7 +287,7 @@ Resources:
           aws s3 cp s3://udagram-devops/udacity.zip .
           unzip -o udacity.zip
       ImageId: ami-003634241a8fcdec0
-      KeyName: UdacityUdagramKeyPair
+      ##KeyName: UdacityUdagramKeyPair
       IamInstanceProfile: !Ref S3BucketsInstanceProfile
       SecurityGroups:
       - Ref: WebServerSecGroup
